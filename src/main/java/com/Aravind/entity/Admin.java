@@ -43,4 +43,8 @@ public class Admin {
     public String getPassword() {
      return this.password;
     }
+
+    public Integer getId() {
+     return this.id;
+    }
 }
