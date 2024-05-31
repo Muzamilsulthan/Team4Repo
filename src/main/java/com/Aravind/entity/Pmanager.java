@@ -35,4 +35,8 @@ public class Pmanager {
 	public String getEmail() {
 		 return this.email;
 	}
+
+    public Integer getId() {
+		 return this.id;
+    }
 }

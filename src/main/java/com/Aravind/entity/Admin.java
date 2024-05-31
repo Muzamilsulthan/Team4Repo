@@ -40,4 +40,7 @@ public class Admin {
      return this.email;
     }
 
+    public String getPassword() {
+     return this.password;
+    }
 }

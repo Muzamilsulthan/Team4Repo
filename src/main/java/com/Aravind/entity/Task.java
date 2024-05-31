@@ -26,6 +26,10 @@ public class Task {
     @ManyToOne(cascade = CascadeType.ALL) // Cascade all operations to associated Projecttable
     @JoinColumn(name = "project_id")
     private Projecttable project;
-    
+
+    public Long getId() {
+        return this.id;
+    }
+
     // Getters and setters
 }

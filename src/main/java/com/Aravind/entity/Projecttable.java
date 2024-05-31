@@ -23,4 +23,7 @@ public class Projecttable {
    private String endDate;
    private String status;
 
+    public Long getId() {
+        return this.id;
+    }
 }
